@@ -1,17 +1,15 @@
-# Twitter DB
+# Facebook DB
 
-*The Dumbest Thing I've Ever Done*
+*Not The Dumbest Thing I've Ever Done*
 
-Use a private Twitter account for your database. I mean don't. But this will let you
-do it. Kind of!
+Use a FB account for your database. I mean do it. This will let you
+do it.
 
-## Usage (don't)
+## Usage (do)
 
-This doesn't even really work. Look at the source for a thing that kind of works. Also
-don't use this because you'll get your twitter account taken away from you and no one 
-wants that.
+This really works. Look at the source for a thing that works. Also use this because you'll get your FB account taken away from you.
 
-    client = TwitterDB::Client.new
+    client = FacebookDB::Client.new
     
     # Save something
     id = client.insert "Sup y'all"
